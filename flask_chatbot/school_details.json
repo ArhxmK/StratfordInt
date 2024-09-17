@@ -1,0 +1,15 @@
+{
+    "school_name": "Stratford International School",
+    "address": "123 Education Lane, Learning City",
+    "contact": {
+      "phone": "+1234567890",
+      "email": "info@stratfordint.edu"
+    },
+    "programs": [
+      "Primary Education",
+      "Secondary Education",
+      "Extracurricular Activities"
+    ],
+    "admission_process": "The admission process includes filling out an application form, submitting necessary documents, and attending an interview."
+  }
+  

@@ -1,0 +1,402 @@
+{
+    "questions_and_answers": [
+        {
+            "question": "hi",
+            "answer": "Hello! How can I assist you today?",
+            "synonyms": [
+                "hello", 
+                "hey", 
+                "hii", 
+                "greetings", 
+                "hi there", 
+                "good morning", 
+                "good afternoon", 
+                "good evening"
+            ]
+        },
+        {
+            "question": "hello",
+            "answer": "Hello! How can I assist you today?",
+            "synonyms": [
+                "hi", 
+                "hey", 
+                "hii", 
+                "greetings", 
+                "hi there", 
+                "good morning", 
+                "good afternoon", 
+                "good evening"
+            ]
+        },
+        {
+            "question": "What are the programs?",
+            "answer": "We offer Primary Education, Secondary Education, and Extracurricular Activities.",
+            "synonyms": [
+                "What courses are offered?", 
+                "What programs are available?", 
+                "Which programs do you offer?", 
+                "What subjects do you have?"
+            ]
+        },
+        {
+            "question": "What is the contact number?",
+            "answer": "You can reach us at +1234567890.",
+            "synonyms": [
+                "How do I contact you?", 
+                "What is your phone number?", 
+                "Can I get the contact number?", 
+                "What’s the number to call?"
+            ]
+        },
+        {
+            "question": "What is the admission process?",
+            "answer": "The admission process includes filling out an application form, submitting necessary documents, and attending an interview.",
+            "synonyms": [
+                "How do I apply for admission?", 
+                "What are the steps for admission?", 
+                "What is the procedure for applying?", 
+                "How does the admission process work?"
+            ]
+        },
+        {
+            "question": "How to apply?",
+            "answer": "You can apply by filling out an online application form, submitting necessary documents, and attending an interview.",
+            "synonyms": [
+                "How do I apply?", 
+                "What is the application process?", 
+                "What is the procedure to apply?"
+            ]
+        },
+        {
+            "question": "How to apply for course?",
+            "answer": "You can check apply in course section.",
+            "synonyms": [
+                "How do I apply for a course?", 
+                "What is the process to apply for a course?", 
+                "How to register for a course?"
+            ]
+        },
+        {
+            "question": "Curriculum details?",
+            "answer": "Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum.",
+            "synonyms": [
+                "Tell me about the curriculum", 
+                "What are the curriculum details?", 
+                "What curriculum do you follow?", 
+                "Can you explain the curriculum?"
+            ]
+        },
+        {
+            "question": "Where is it located?",
+            "answer": "Kalpitiya, Sri Lanka.",
+            "synonyms": [
+                "What is your location?", 
+                "Where is your campus?", 
+                "Where is the school located?"
+            ]
+        },
+        {
+            "question": "location",
+            "answer": "Kalpitiya, Sri Lanka.",
+            "synonyms": [
+                "Where is the location?", 
+                "Where can I find the school?", 
+                "What’s the location of the school?"
+            ]
+        },
+        {
+            "question": "Extracurricular and Co-curricular Activities",
+            "answer": "Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities.",
+            "synonyms": [
+                "What extracurricular activities are offered?", 
+                "What after-school programs do you have?", 
+                "Do you offer any extracurricular activities?", 
+                "What co-curricular activities are available?"
+            ]
+        },
+        {
+            "question": "bye",
+            "answer": "Pleasure to help you.",
+            "synonyms": [
+                "goodbye", 
+                "see you", 
+                "later", 
+                "thanks, bye"
+            ]
+        },
+        {
+            "question": "Trouble when applying?",
+            "answer": "Contact us by submitting an inquiry using the Contact Us page.",
+            "synonyms": [
+                "I’m having trouble applying", 
+                "Can’t apply", 
+                "Issue with applying", 
+                "Problem when submitting application"
+            ]
+        },
+        {
+            "question": "What documents are required for admission?",
+            "answer": "The required documents include a birth certificate, passport size photo, previous school leaving certificate, and parent's NIC copy.",
+            "synonyms": [
+                "Which documents do I need to submit?", 
+                "What are the necessary documents for admission?", 
+                "What files do I need for the admission form?", 
+                "What are the required documents?", 
+                "Which files should I upload for admission?"
+            ]
+        },
+        {
+            "question": "What are the fees for admission?",
+            "answer": "You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.",
+            "synonyms": [
+                "How much is the admission fee?", 
+                "What’s the cost of admission?", 
+                "What are the charges for admission?", 
+                "Where can I find the fees for admission?"
+            ]
+        },
+        {
+            "question": "How long does the admission process take?",
+            "answer": "The admission process usually takes around 2-3 weeks, including document submission, interview, and final approval.",
+            "synonyms": [
+                "How long does it take to get admitted?", 
+                "How much time does the admission process take?", 
+                "What is the duration of the admission process?"
+            ]
+        },
+        {
+            "question": "What grades are offered at Stratford International College?",
+            "answer": "We offer education from Primary to Secondary levels, including Grades 1 to 12.",
+            "synonyms": [
+                "Which grades are available?", 
+                "What classes are offered?", 
+                "What grade levels do you offer?"
+            ]
+        },
+        {
+            "question": "Is there a deadline for admission applications?",
+            "answer": "Yes, please check our Admissions page for the current year's application deadlines.",
+            "synonyms": [
+                "What is the deadline to apply?", 
+                "When is the last date for admission?", 
+                "When is the admission deadline?", 
+                "Is there a cutoff date for applications?"
+            ]
+        },
+        {
+            "question": "What if I cannot upload a document?",
+            "answer": "Please ensure the file is in the correct format (JPEG, PNG, or PDF) and is named appropriately (e.g., NIC_200448242842). Also, make sure the file size does not exceed the maximum limit.",
+            "synonyms": [
+                "I can't upload my document, what should I do?", 
+                "Why can't I upload my files?", 
+                "Trouble uploading documents", 
+                "Document upload not working", 
+                "Issue with file upload"
+            ]
+        },
+        {
+            "question": "What does properly naming attachments mean?",
+            "answer": "Attachments should follow the format: [DocumentType]_[UniqueID]. For example, your NIC document could be named NIC_200448242842.",
+            "synonyms": [
+                "How should I name my documents?", 
+                "What is the format for naming attachments?", 
+                "How do I name my files?", 
+                "What naming convention should I follow for uploads?"
+            ]
+        },
+        {
+            "question": "I am having trouble filling out the Student Details section.",
+            "answer": "Ensure all mandatory fields, marked with an asterisk (*), are filled in correctly. If the form still doesn't work, try reloading the page.",
+            "synonyms": [
+                "I can't complete the Student Details section", 
+                "How do I fill the Student Details part?", 
+                "Student Details section not working", 
+                "Trouble entering student details", 
+                "Problem with Student Details form"
+            ]
+        },
+        {
+            "question": "What should I do if the next button is not working?",
+            "answer": "Make sure you have filled all the required fields on the current step before proceeding to the next step. Required fields are marked with an asterisk (*).",
+            "synonyms": [
+                "Next button not working", 
+                "Can't go to the next step", 
+                "Form won't proceed to the next step", 
+                "How do I go to the next step in the form?"
+            ]
+        },
+        {
+            "question": "What are the supported file formats for uploads?",
+            "answer": "The supported file formats for uploading documents include JPEG, PNG, and PDF.",
+            "synonyms": [
+                "Which file formats are accepted for uploads?", 
+                "What file types can I upload?", 
+                "What are the allowed file formats?", 
+                "Accepted formats for document upload"
+            ]
+        },
+        {
+            "question": "What if I make a mistake while filling the form?",
+            "answer": "You can go back to any previous step by clicking the 'Previous' button and correct any mistakes.",
+            "synonyms": [
+                "How can I fix mistakes in the form?", 
+                "What if I made an error while filling the form?", 
+                "Can I correct the form after submitting?", 
+                "Form correction process"
+            ]
+        },
+        {
+            "question": "What is the shortest distance to the school?",
+            "answer": "Please measure the distance from your home to the school in kilometers and enter the value in the provided field.",
+            "synonyms": [
+                "How do I calculate the distance to the school?", 
+                "What is the distance from home to school?", 
+                "How to measure distance for admission?", 
+                "Required distance for admission form"
+            ]
+        },
+        {
+            "question": "Can I apply for admission if my previous school record is incomplete?",
+            "answer": "It's best to have all the required documents, but if you are missing some, please contact the admissions office for further assistance.",
+            "synonyms": [
+                "Can I submit without full school records?", 
+                "What if I don't have my previous school documents?", 
+                "Missing previous school records for admission", 
+                "How do I apply without full school records?"
+            ]
+        },
+        {
+            "question": "What happens after I submit the admission form?",
+            "answer": "Once your admission form is submitted, it will be reviewed by the admissions committee, and you will be notified via email or phone about the next steps.",
+            "synonyms": [
+                "What happens after I apply for admission?", 
+                "How long until I hear back after submitting the form?", 
+                "What are the next steps after form submission?", 
+                "What happens next after I submit the admission application?"
+            ]
+        },
+        {
+            "question": "I don't understand the admission guidelines.",
+            "answer": "The admission guidelines explain the procedure for applying, the required documents, and the steps involved in the admission process. If you need further clarification, feel free to contact the admissions office.",
+            "synonyms": [
+                "Can you explain the admission guidelines?", 
+                "I need help understanding the admission procedure", 
+                "What are the steps in the admission process?", 
+                "Clarify the rules for admission"
+            ]
+        },
+        {
+            "question": "What documents are required for the admission form?",
+            "answer": "The required documents include a passport-size photo, birth certificate copy, parent's NIC copy, and the student's previous school leaving certificate.",
+            "synonyms": [
+                "Which documents do I need to submit?", 
+                "What are the necessary documents for admission?",
+                "What files do I need for the admission form?",
+                "What are the required documents?",
+                "Which files should I upload for admission?"
+            ]
+        },
+        {
+            "question": "What if I cannot upload a document?",
+            "answer": "Please ensure the file is in the correct format (JPEG, PNG, or PDF) and is named appropriately (e.g., NIC_200448242842). Also, make sure the file size does not exceed the maximum limit.",
+            "synonyms": [
+                "I can't upload my document, what should I do?", 
+                "Why can't I upload my files?", 
+                "Trouble uploading documents", 
+                "Document upload not working",
+                "Issue with file upload"
+            ]
+        },
+        {
+            "question": "What does properly naming attachments mean?",
+            "answer": "Attachments should follow the format: [DocumentType]_[UniqueID]. For example, your NIC document could be named NIC_200448242842.",
+            "synonyms": [
+                "How should I name my documents?",
+                "What is the format for naming attachments?",
+                "How do I name my files?",
+                "What naming convention should I follow for uploads?"
+            ]
+        },
+        {
+            "question": "I am having trouble filling out the Student Details section.",
+            "answer": "Ensure all mandatory fields, marked with an asterisk (*), are filled in correctly. If the form still doesn't work, try reloading the page.",
+            "synonyms": [
+                "I can't complete the Student Details section",
+                "How do I fill the Student Details part?",
+                "Student Details section not working",
+                "Trouble entering student details",
+                "Problem with Student Details form"
+            ]
+        },
+        {
+            "question": "What should I do if the next button is not working?",
+            "answer": "Make sure you have filled all the required fields on the current step before proceeding to the next step. Required fields are marked with an asterisk (*).",
+            "synonyms": [
+                "Next button not working",
+                "Can't go to the next step",
+                "Form won't proceed to the next step",
+                "How do I go to the next step in the form?"
+            ]
+        },
+        {
+            "question": "What are the supported file formats for uploads?",
+            "answer": "The supported file formats for uploading documents include JPEG, PNG, and PDF.",
+            "synonyms": [
+                "Which file formats are accepted for uploads?",
+                "What file types can I upload?",
+                "What are the allowed file formats?",
+                "Accepted formats for document upload"
+            ]
+        },
+        {
+            "question": "What if I make a mistake while filling the form?",
+            "answer": "You can go back to any previous step by clicking the 'Previous' button and correct any mistakes.",
+            "synonyms": [
+                "How can I fix mistakes in the form?",
+                "What if I made an error while filling the form?",
+                "Can I correct the form after submitting?",
+                "Form correction process"
+            ]
+        },
+        {
+            "question": "What is the shortest distance to the school?",
+            "answer": "Please measure the distance from your home to the school in kilometers and enter the value in the provided field.",
+            "synonyms": [
+                "How do I calculate the distance to the school?",
+                "What is the distance from home to school?",
+                "How to measure distance for admission?",
+                "Required distance for admission form"
+            ]
+        },
+        {
+            "question": "Can I apply for admission if my previous school record is incomplete?",
+            "answer": "It's best to have all the required documents, but if you are missing some, please contact the admissions office for further assistance.",
+            "synonyms": [
+                "Can I submit without full school records?",
+                "What if I don't have my previous school documents?",
+                "Missing previous school records for admission",
+                "How do I apply without full school records?"
+            ]
+        },
+        {
+            "question": "What happens after I submit the admission form?",
+            "answer": "Once your admission form is submitted, it will be reviewed by the admissions committee, and you will be notified via email or phone about the next steps.",
+            "synonyms": [
+                "What happens after I apply for admission?",
+                "How long until I hear back after submitting the form?",
+                "What are the next steps after form submission?",
+                "What happens next after I submit the admission application?"
+            ]
+        },
+        {
+            "question": "I don't understand the admission guidelines.",
+            "answer": "The admission guidelines explain the procedure for applying, the required documents, and the steps involved in the admission process. If you need further clarification, feel free to contact the admissions office.",
+            "synonyms": [
+                "Can you explain the admission guidelines?",
+                "I need help understanding the admission procedure",
+                "What are the steps in the admission process?",
+                "Clarify the rules for admission"
+            ]
+        }
+    ]
+}

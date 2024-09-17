@@ -1,0 +1,288 @@
+
+.footer {
+    background-color: #000223; /* Adjust the background color as needed */
+    color: white;
+    padding: 40px 0;
+}
+.footer h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer p, .footer a {
+    color: white;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+.footer hr {
+    border-color: white;
+    border-width: 2px;
+    width: 50px;
+    margin-left: 0;
+}
+.footer .social-icons {
+    margin-top: 20px;
+}
+.footer .social-icons a {
+    margin-right: 10px;
+    color: white;
+}
+.footer .social-icons a:hover {
+    color: #ddd;
+}
+.footer-bottom {
+    background-color: var(--bgMain); /* Slightly darker shade */
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+/* contact page */
+section.banner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: #fff;
+    color: white;
+    padding: 20px;
+    height: 300px;
+}
+.banner h1 {
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4.5em;
+}
+@media (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
+    .banner h1 {
+        font-size: 1.2em;
+    }
+}
+
+.invalid-feedback,
+.empty-feedback {
+    display: none;
+}
+
+.was-validated :placeholder-shown:invalid~.empty-feedback {
+    display: block;
+}
+
+.was-validated :not(:placeholder-shown):invalid~.invalid-feedback {
+    display: block;
+}
+
+.is-invalid,
+.was-validated :invalid {
+    border-color: #dc3545;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content .logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Space between the logo and the heading */
+}
+
+/* Custom button color */
+.btn-custom {
+    background-color: #000223;
+    border-color: #000223;
+    color: white; /* Ensure the text is readable */
+}
+
+.btn-custom:hover {
+    background-color: #000223; /* Optional: Define hover state if needed */
+    border-color: #000223; /* Optional: Define hover state if needed */
+}
+
+/* About page */
+* {box-sizing:border-box}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #fff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fff;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*page banner container*/
+.sbanner {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Adjust this value to set the default height */
+    background: url('../img/sebanner2.png') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.sbanner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: to darken the image */
+}
+
+.sbanner h1 {
+    position: relative;
+    font-size: 3em; /* Adjust the size as needed */
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .sbanner h1 {
+        font-size: 2em; /* Adjust the size for smaller screens */
+    }
+}
+
+.school-section {
+    padding: 20px;
+}
+
+.school-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.school-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.school-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.school-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .school-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .school-text {
+        max-width: 60%;
+    }
+
+    .school-image {
+        max-width: 40%;
+    }
+
+    .school-text h1 {
+        font-size: 2.5em;
+    }
+
+    .school-text h2 {
+        font-size: 1.5em;
+        color: #555;
+    }
+
+    .school-text p {
+        font-size: 1em;
+    }
+}

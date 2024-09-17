@@ -1,0 +1,95 @@
+.admission-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admission-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.admission-title h1 {
+    font-size: 24px;
+    text-align: center;
+    flex: 1;
+}
+
+.admission-logo {
+    width: 100px;
+}
+
+.admission-main {
+    text-align: center;
+}
+
+.admission-steps {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.admission-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    background-color: white; /* Changed from green to white */
+}
+
+.admission-step .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.admission-step .label {
+    font-size: 14px;
+}
+
+.line {
+    height: 2px;
+    background-color: #ddd;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.completed .icon, .completed .label, .line.completed {
+    color: #000223;
+}
+
+.admission-step-content {
+    display: none;
+    text-align: left;
+}
+
+.admission-step-content.active {
+    display: block;
+}
+
+.admission-form-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prevButton, #nextButton {
+    background-color: navy; /* Changed to navy blue */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#prevButton:disabled, #nextButton:disabled {
+    background-color: #000223;
+    cursor: not-allowed;
+}

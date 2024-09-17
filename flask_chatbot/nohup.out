@@ -1,0 +1,1170 @@
+/Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot/venv/lib/python3.9/site-packages/torch/storage.py:414: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(io.BytesIO(b))
+Current directory: /Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot
+Files in directory: ['run_flask.sh', 'school_details.json', 'app.py', 'flask_chatbot_supervisor.conf', 'chatbot_model.pkl', 'venv', 'nohup.out', 'chatbot.php']
+Model loaded successfully.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.101:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [05/Aug/2024 21:14:46] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [05/Aug/2024 21:14:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [05/Aug/2024 21:14:49] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [05/Aug/2024 21:16:18] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2024 21:16:18] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2024 21:16:22] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2024 21:18:47] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2024 21:18:47] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2024 21:18:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [05/Aug/2024 21:18:54] "POST /chatbot HTTP/1.1" 200 -
+/Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot/venv/lib/python3.9/site-packages/torch/storage.py:414: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(io.BytesIO(b))
+Current directory: /Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot
+Files in directory: ['run_flask.sh', 'school_details.json', 'app.py', 'flask_chatbot_supervisor.conf', 'chatbot_model.pkl', 'venv', 'nohup.out', 'chatbot.php']
+Model loaded successfully.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.100:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [06/Aug/2024 11:12:39] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:12:39] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:12:52] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:12:52] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:12:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:12:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:13:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:13:06] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:22:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:22:22] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:26:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:26:25] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:38:31] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:38:31] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:43:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:43:22] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:45:50] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:45:50] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:53:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 11:53:07] "[35m[1mPOST /chatbot HTTP/1.1[0m" 500 -
+/Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot/venv/lib/python3.9/site-packages/torch/storage.py:414: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return torch.load(io.BytesIO(b))
+Current directory: /Applications/XAMPP/xamppfiles/htdocs/StratfordInt/flask_chatbot
+Files in directory: ['run_flask.sh', 'school_details.json', 'app.py', 'flask_chatbot_supervisor.conf', 'chatbot_model.pkl', 'venv', 'nohup.out', 'chatbot.php']
+Model loaded successfully.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.100:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [06/Aug/2024 13:33:27] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:33:27] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:33:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:33:58] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:36:00] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:36:00] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:36:35] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:36:35] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:37:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:37:22] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:37:29] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:37:29] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:40:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:40:54] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:00] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:00] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:07] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:44] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:45] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:50] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:50] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:57] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:41:57] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:07] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:20] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:20] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:29] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:29] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:42:36] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:43:32] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:43:32] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:43:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:43:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:44:03] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:44:08] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:44:08] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:44:17] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:44:17] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:50:31] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:50:31] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:51:12] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:51:12] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:51:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:51:25] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:53:49] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:53:49] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:54:00] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:54:00] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:56:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:56:40] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:58:15] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:58:15] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:58:32] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:58:32] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:58:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:58:55] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:59:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:59:02] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:59:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 13:59:09] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:01:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:01:06] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:01:26] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:01:26] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:03:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:03:02] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:03:08] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:03:08] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:04:11] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:04:11] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:05:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:05:54] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:05:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:07:01] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:07:01] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:07:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:07:13] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:09:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:09:09] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:10:03] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:10:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:10:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:10:58] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:13:49] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:13:49] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:16:44] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:16:44] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:17:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:17:09] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:18:27] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 14:18:27] "POST /chatbot HTTP/1.1" 200 -
+Loaded 4 predefined Q&A pairs.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.100:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [06/Aug/2024 20:28:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:28:54] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:29:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:29:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:29:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:29:25] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:30:42] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:30:42] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:31:37] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:31:37] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:31:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:31:53] "POST /chatbot HTTP/1.1" 200 -
+Loaded 4 predefined Q&A pairs.
+Question: 'hi?' => Answer: 'Welcome to Stratford International School, How can I help you?.'
+Question: 'What are the programs offered?' => Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Question: 'What is the contact number?' => Answer: 'You can reach us at +1234567890.'
+Question: 'What is the admission process?' => Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5001 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [06/Aug/2024 20:33:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:33:07] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:33:31] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:33:31] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 4 predefined Q&A pairs.
+Question: 'hi?' => Answer: 'Welcome to Stratford International School, How can I help you?.'
+Question: 'What are the programs offered?' => Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Question: 'What is the contact number?' => Answer: 'You can reach us at +1234567890.'
+Question: 'What is the admission process?' => Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5001 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [06/Aug/2024 20:34:41] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:34:41] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:34:49] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:34:49] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:36:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:36:13] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:36:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:36:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:37:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:37:53] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:39:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:39:36] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:39:43] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:39:43] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 4 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs offered?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5001 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [06/Aug/2024 20:43:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:43:58] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 4 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs offered?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.100:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [06/Aug/2024 20:48:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:15] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:15] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:26] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:26] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:52] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:48:52] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:49:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:49:19] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 20:49:23] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:08:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:08:36] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:14:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:14:45] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:14:47] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:24:32] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:24:32] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 21:24:36] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 14 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section'
+Loaded Q&A Pair - Question: 'Currciculum details??', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum. This approach not only prepares our students academically but also equips them with the skills and knowledge necessary to excel in a competitive world. Whether it's mastering core subjects or engaging in specialized programs such as the UCMAS Abacus and Phonics and Spoken English courses, we strive to foster a well-rounded development in every student.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using Contact Us page.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.100:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [06/Aug/2024 23:06:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:06:13] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:06:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:06:19] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:22] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:45] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:53] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:08:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:10:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:10:25] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:10:27] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:10:34] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:10:34] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:10:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+Received question: 'hi'
+Searching for predefined answer for question: 'hi'
+Comparing 'hi' with predefined question: 'what are the programs?'
+Comparing 'hi' with predefined question: 'what is the contact number?'
+Comparing 'hi' with predefined question: 'what is the admission process?'
+Comparing 'hi' with predefined question: 'hi'
+Match found. Returning answer: 'Hello! How can I assist you today?'
+Returning predefined answer: 'Hello! How can I assist you today?'
+Received question: 'hello'
+Searching for predefined answer for question: 'hello'
+Comparing 'hello' with predefined question: 'what are the programs?'
+Comparing 'hello' with predefined question: 'what is the contact number?'
+Comparing 'hello' with predefined question: 'what is the admission process?'
+Comparing 'hello' with predefined question: 'hi'
+Comparing 'hello' with predefined question: 'hello'
+Match found. Returning answer: 'Hello! How can I assist you today?'
+Returning predefined answer: 'Hello! How can I assist you today?'
+Received question: 'curriculum'
+Searching for predefined answer for question: 'curriculum'
+Comparing 'curriculum' with predefined question: 'what are the programs?'
+Comparing 'curriculum' with predefined question: 'what is the contact number?'
+Comparing 'curriculum' with predefined question: 'what is the admission process?'
+Comparing 'curriculum' with predefined question: 'hi'
+Comparing 'curriculum' with predefined question: 'hello'
+Comparing 'curriculum' with predefined question: 'how to apply?'
+Comparing 'curriculum' with predefined question: 'how to apply for course?'
+Comparing 'curriculum' with predefined question: 'currciculum details??'
+Comparing 'curriculum' with predefined question: 'where is it located?'
+Comparing 'curriculum' with predefined question: 'location'
+Comparing 'curriculum' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'curriculum' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'curriculum' with predefined question: 'bye'
+Comparing 'curriculum' with predefined question: 'trouble when applying?'
+No predefined answer found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'what are the programs'
+Searching for predefined answer for question: 'what are the programs'
+Comparing 'what are the programs' with predefined question: 'what are the programs?'
+Comparing 'what are the programs' with predefined question: 'what is the contact number?'
+Comparing 'what are the programs' with predefined question: 'what is the admission process?'
+Comparing 'what are the programs' with predefined question: 'hi'
+Comparing 'what are the programs' with predefined question: 'hello'
+Comparing 'what are the programs' with predefined question: 'how to apply?'
+Comparing 'what are the programs' with predefined question: 'how to apply for course?'
+Comparing 'what are the programs' with predefined question: 'currciculum details??'
+Comparing 'what are the programs' with predefined question: 'where is it located?'
+Comparing 'what are the programs' with predefined question: 'location'
+Comparing 'what are the programs' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'what are the programs' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'what are the programs' with predefined question: 'bye'
+Comparing 'what are the programs' with predefined question: 'trouble when applying?'
+No predefined answer found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'location'
+Searching for predefined answer for question: 'location'
+Comparing 'location' with predefined question: 'what are the programs?'
+Comparing 'location' with predefined question: 'what is the contact number?'
+Comparing 'location' with predefined question: 'what is the admission process?'
+Comparing 'location' with predefined question: 'hi'
+Comparing 'location' with predefined question: 'hello'
+Comparing 'location' with predefined question: 'how to apply?'
+Comparing 'location' with predefined question: 'how to apply for course?'
+Comparing 'location' with predefined question: 'currciculum details??'
+Comparing 'location' with predefined question: 'where is it located?'
+Comparing 'location' with predefined question: 'location'
+Match found. Returning answer: 'Kalpitiya, Sri lanka.'
+Returning predefined answer: 'Kalpitiya, Sri lanka.'
+Received question: 'address'
+Searching for predefined answer for question: 'address'
+Comparing 'address' with predefined question: 'what are the programs?'
+Comparing 'address' with predefined question: 'what is the contact number?'
+Comparing 'address' with predefined question: 'what is the admission process?'
+Comparing 'address' with predefined question: 'hi'
+Comparing 'address' with predefined question: 'hello'
+Comparing 'address' with predefined question: 'how to apply?'
+Comparing 'address' with predefined question: 'how to apply for course?'
+Comparing 'address' with predefined question: 'currciculum details??'
+Comparing 'address' with predefined question: 'where is it located?'
+Comparing 'address' with predefined question: 'location'
+Comparing 'address' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'address' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'address' with predefined question: 'bye'
+Comparing 'address' with predefined question: 'trouble when applying?'
+No predefined answer found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'What is the admission process?'
+Searching for predefined answer for question: 'what is the admission process?'
+Comparing 'what is the admission process?' with predefined question: 'what are the programs?'
+Comparing 'what is the admission process?' with predefined question: 'what is the contact number?'
+Comparing 'what is the admission process?' with predefined question: 'what is the admission process?'
+Match found. Returning answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'bye'
+Searching for predefined answer for question: 'bye'
+Comparing 'bye' with predefined question: 'what are the programs?'
+Comparing 'bye' with predefined question: 'what is the contact number?'
+Comparing 'bye' with predefined question: 'what is the admission process?'
+Comparing 'bye' with predefined question: 'hi'
+Comparing 'bye' with predefined question: 'hello'
+Comparing 'bye' with predefined question: 'how to apply?'
+Comparing 'bye' with predefined question: 'how to apply for course?'
+Comparing 'bye' with predefined question: 'currciculum details??'
+Comparing 'bye' with predefined question: 'where is it located?'
+Comparing 'bye' with predefined question: 'location'
+Comparing 'bye' with predefined question: 'extracurricular and co-curricular activities'
+127.0.0.1 - - [06/Aug/2024 23:10:48] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:14:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:14:54] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:14:57] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:15:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:15:02] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:16:03] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:16:03] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:20:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:20:56] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:20:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:02] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:03] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:03] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:03] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:17] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:21:17] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:22:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+Comparing 'bye' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'bye' with predefined question: 'bye'
+Match found. Returning answer: 'Pleasure to help you.'
+Returning predefined answer: 'Pleasure to help you.'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'What is the admission process?'
+Searching for predefined answer for question: 'what is the admission process?'
+Comparing 'what is the admission process?' with predefined question: 'what are the programs?'
+Comparing 'what is the admission process?' with predefined question: 'what is the contact number?'
+Comparing 'what is the admission process?' with predefined question: 'what is the admission process?'
+Match found. Returning answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Received question: 'hi'
+Searching for predefined answer for question: 'hi'
+Comparing 'hi' with predefined question: 'what are the programs?'
+Comparing 'hi' with predefined question: 'what is the contact number?'
+Comparing 'hi' with predefined question: 'what is the admission process?'
+Comparing 'hi' with predefined question: 'hi'
+Match found. Returning answer: 'Hello! How can I assist you today?'
+Returning predefined answer: 'Hello! How can I assist you today?'
+Received question: 'hi'
+Searching for predefined answer for question: 'hi'
+Comparing 'hi' with predefined question: 'what are the programs?'
+Comparing 'hi' with predefined question: 'what is the contact number?'
+Comparing 'hi' with predefined question: 'what is the admission process?'
+Comparing 'hi' with predefined question: 'hi'
+Match found. Returning answer: 'Hello! How can I assist you today?'
+Returning predefined answer: 'Hello! How can I assist you today?'
+Received question: 'What is the admission process?'
+Searching for predefined answer for question: 'what is the admission process?'
+Comparing 'what is the admission process?' with predefined question: 'what are the programs?'
+Comparing 'what is the admission process?' with predefined question: 'what is the contact number?'
+Comparing 'what is the admission process?' with predefined question: 'what is the admission process?'
+Match found. Returning answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'What is the admission process?'
+Searching for predefined answer for question: 'what is the admission process?'
+Comparing 'what is the admission process?' with predefined question: 'what are the programs?'
+Comparing 'what is the admission process?' with predefined question: 'what is the contact number?'
+Comparing 'what is the admission process?' with predefined question: 'what is the admission process?'
+Match found. Returning answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+127.0.0.1 - - [06/Aug/2024 23:22:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:22:22] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:22:22] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:22:24] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:24:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:24:58] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:24:58] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:27:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:27:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:27:09] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:27:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [06/Aug/2024 23:27:54] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 14 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section'
+Loaded Q&A Pair - Question: 'Currciculum details??', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum. This approach not only prepares our students academically but also equips them with the skills and knowledge necessary to excel in a competitive world. Whether it's mastering core subjects or engaging in specialized programs such as the UCMAS Abacus and Phonics and Spoken English courses, we strive to foster a well-rounded development in every student.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using Contact Us page.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.12:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [10/Aug/2024 09:37:44] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:37:44] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:37:50] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:37:50] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:38:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:38:19] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:38:21] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 09:38:21] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 10:11:29] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 10:11:29] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 10:11:33] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 10:11:44] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2024 10:11:44] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 14 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section'
+Loaded Q&A Pair - Question: 'Currciculum details??', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum. This approach not only prepares our students academically but also equips them with the skills and knowledge necessary to excel in a competitive world. Whether it's mastering core subjects or engaging in specialized programs such as the UCMAS Abacus and Phonics and Spoken English courses, we strive to foster a well-rounded development in every student.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using Contact Us page.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.101:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [23/Aug/2024 17:38:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2024 17:38:07] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2024 17:38:11] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2024 17:40:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2024 17:40:40] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2024 17:40:41] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [23/Aug/2024 17:40:42] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 14 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section'
+Loaded Q&A Pair - Question: 'Currciculum details??', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum. This approach not only prepares our students academically but also equips them with the skills and knowledge necessary to excel in a competitive world. Whether it's mastering core subjects or engaging in specialized programs such as the UCMAS Abacus and Phonics and Spoken English courses, we strive to foster a well-rounded development in every student.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities. Students are encouraged to participate actively in sports, cultural events, artistic pursuits, and community service initiatives. These activities promote holistic development, fostering qualities of leadership, teamwork, and social responsibility among students.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using Contact Us page.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.101:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [25/Aug/2024 11:43:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:19] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:21] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:23] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:50] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:50] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:52] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [25/Aug/2024 11:43:55] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 18 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section.'
+Loaded Q&A Pair - Question: 'Currciculum details?', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using the Contact Us page.'
+Loaded Q&A Pair - Question: 'What documents are required for admission?', Answer: 'The required documents include a birth certificate, passport size photo, previous school leaving certificate, and parent's NIC copy.'
+Loaded Q&A Pair - Question: 'What are the fees for admission?', Answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Loaded Q&A Pair - Question: 'How long does the admission process take?', Answer: 'The admission process usually takes around 2-3 weeks, including document submission, interview, and final approval.'
+Loaded Q&A Pair - Question: 'What grades are offered at Stratford International College?', Answer: 'We offer education from Primary to Secondary levels, including Grades 1 to 12.'
+Loaded Q&A Pair - Question: 'Is there a deadline for admission applications?', Answer: 'Yes, please check our Admissions page for the current year's application deadlines.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.12:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [10/Sep/2024 13:10:41] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 13:10:41] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 13:10:47] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 13:10:47] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 13:10:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2024 13:10:54] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 18 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section.'
+Loaded Q&A Pair - Question: 'Currciculum details?', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using the Contact Us page.'
+Loaded Q&A Pair - Question: 'What documents are required for admission?', Answer: 'The required documents include a birth certificate, passport size photo, previous school leaving certificate, and parent's NIC copy.'
+Loaded Q&A Pair - Question: 'What are the fees for admission?', Answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Loaded Q&A Pair - Question: 'How long does the admission process take?', Answer: 'The admission process usually takes around 2-3 weeks, including document submission, interview, and final approval.'
+Loaded Q&A Pair - Question: 'What grades are offered at Stratford International College?', Answer: 'We offer education from Primary to Secondary levels, including Grades 1 to 12.'
+Loaded Q&A Pair - Question: 'Is there a deadline for admission applications?', Answer: 'Yes, please check our Admissions page for the current year's application deadlines.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.20.10.12:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [11/Sep/2024 15:37:08] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:08] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:19] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:19] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:25] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:39] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:39] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:37:55] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:38:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:38:02] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:48:54] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:48:54] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:48:57] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:49:04] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:49:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2024 15:49:35] "OPTIONS /chatbot HTTP/1.1" 200 -
+Received question: 'What is the admission process?'
+Searching for predefined answer for question: 'what is the admission process?'
+Comparing 'what is the admission process?' with predefined question: 'what are the programs?'
+Comparing 'what is the admission process?' with predefined question: 'what is the contact number?'
+Comparing 'what is the admission process?' with predefined question: 'what is the admission process?'
+Match found. Returning answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Received question: 'hi'
+Searching for predefined answer for question: 'hi'
+Comparing 'hi' with predefined question: 'what are the programs?'
+Comparing 'hi' with predefined question: 'what is the contact number?'
+Comparing 'hi' with predefined question: 'what is the admission process?'
+Comparing 'hi' with predefined question: 'hi'
+Match found. Returning answer: 'Hello! How can I assist you today?'
+Returning predefined answer: 'Hello! How can I assist you today?'
+Received question: 'What are the programs?'
+Searching for predefined answer for question: 'what are the programs?'
+Comparing 'what are the programs?' with predefined question: 'what are the programs?'
+Match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'location'
+Searching for predefined answer for question: 'location'
+Comparing 'location' with predefined question: 'what are the programs?'
+Comparing 'location' with predefined question: 'what is the contact number?'
+Comparing 'location' with predefined question: 'what is the admission process?'
+Comparing 'location' with predefined question: 'hi'
+Comparing 'location' with predefined question: 'hello'
+Comparing 'location' with predefined question: 'how to apply?'
+Comparing 'location' with predefined question: 'how to apply for course?'
+Comparing 'location' with predefined question: 'currciculum details?'
+Comparing 'location' with predefined question: 'where is it located?'
+Comparing 'location' with predefined question: 'location'
+Match found. Returning answer: 'Kalpitiya, Sri Lanka.'
+Returning predefined answer: 'Kalpitiya, Sri Lanka.'
+Received question: 'how to apply'
+Searching for predefined answer for question: 'how to apply'
+Comparing 'how to apply' with predefined question: 'what are the programs?'
+Comparing 'how to apply' with predefined question: 'what is the contact number?'
+Comparing 'how to apply' with predefined question: 'what is the admission process?'
+Comparing 'how to apply' with predefined question: 'hi'
+Comparing 'how to apply' with predefined question: 'hello'
+Comparing 'how to apply' with predefined question: 'how to apply?'
+Comparing 'how to apply' with predefined question: 'how to apply for course?'
+Comparing 'how to apply' with predefined question: 'currciculum details?'
+Comparing 'how to apply' with predefined question: 'where is it located?'
+Comparing 'how to apply' with predefined question: 'location'
+Comparing 'how to apply' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'how to apply' with predefined question: 'bye'
+Comparing 'how to apply' with predefined question: 'trouble when applying?'
+Comparing 'how to apply' with predefined question: 'what documents are required for admission?'
+Comparing 'how to apply' with predefined question: 'what are the fees for admission?'
+Comparing 'how to apply' with predefined question: 'how long does the admission process take?'
+Comparing 'how to apply' with predefined question: 'what grades are offered at stratford international college?'
+Comparing 'how to apply' with predefined question: 'is there a deadline for admission applications?'
+No predefined answer found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'How to apply?'
+Searching for predefined answer for question: 'how to apply?'
+Comparing 'how to apply?' with predefined question: 'what are the programs?'
+Comparing 'how to apply?' with predefined question: 'what is the contact number?'
+Comparing 'how to apply?' with predefined question: 'what is the admission process?'
+Comparing 'how to apply?' with predefined question: 'hi'
+Comparing 'how to apply?' with predefined question: 'hello'
+Comparing 'how to apply?' with predefined question: 'how to apply?'
+Match found. Returning answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Received question: 'hi'
+Searching for predefined answer for question: 'hi'
+Comparing 'hi' with predefined question: 'what are the programs?'
+Comparing 'hi' with predefined question: 'what is the contact number?'
+Comparing 'hi' with predefined question: 'what is the admission process?'
+Comparing 'hi' with predefined question: 'hi'
+Match found. Returning answer: 'Hello! How can I assist you today?'
+Returning predefined answer: 'Hello! How can I assist you today?'
+Received question: 'What is the contact number?'
+Searching for predefined answer for question: 'what is the contact number?'
+Comparing 'what is the contact number?' with predefined question: 'what are the programs?'
+Comparing 'what is the contact number?' with predefined question: 'what is the contact number?'
+Match found. Returning answer: 'You can reach us at +1234567890.'
+Returning predefined answer: 'You can reach us at +1234567890.'
+Received question: 'How to apply?'
+Searching for predefined answer for question: 'how to apply?'
+Comparing 'how to apply?' with predefined question: 'what are the programs?'
+Comparing 'how to apply?' with predefined question: 'what is the contact number?'
+Comparing 'how to apply?' with predefined question: 'what is the admission process?'
+Comparing 'how to apply?' with predefined question: 'hi'
+Comparing 'how to apply?' with predefined question: 'hello'
+Comparing 'how to apply?' with predefined question: 'how to apply?'
+Match found. Returning answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Returning predefined answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Received question: 'explain more'
+Searching for predefined answer for question: 'explain more'
+Comparing 'explain more' with predefined question: 'what are the programs?'
+Comparing 'explain more' with predefined question: 'what is the contact number?'
+Comparing 'explain more' with predefined question: 'what is the admission process?'
+Comparing 'explain more' with predefined question: 'hi'
+Comparing 'explain more' with predefined question: 'hello'
+Comparing 'explain more' with predefined question: 'how to apply?'
+Comparing 'explain more' with predefined question: 'how to apply for course?'
+Comparing 'explain more' with predefined question: 'currciculum details?'
+Comparing 'explain more' with predefined question: 'where is it located?'
+Comparing 'explain more' with predefined question: 'location'
+Comparing 'explain more' with predefined question: 'extracurricular and co-curricular activities'
+Comparing 'explain more' with predefined question: 'bye'
+Comparing 'explain more' with predefined question: 'trouble when applying?'
+Comparing 'explain more' with predefined question: 'what documents are required for admission?'
+Comparing 'explain more' with predefined question: 'what are the fees for admission?'
+Comparing 'explain more' with predefined question: 'how long does the admission process take?'
+Comparing 'explain more' with predefined question: 'what grades are offered at stratford international college?'
+127.0.0.1 - - [11/Sep/2024 15:49:35] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 18 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section.'
+Loaded Q&A Pair - Question: 'Currciculum details?', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using the Contact Us page.'
+Loaded Q&A Pair - Question: 'What documents are required for admission?', Answer: 'The required documents include a birth certificate, passport size photo, previous school leaving certificate, and parent's NIC copy.'
+Loaded Q&A Pair - Question: 'What are the fees for admission?', Answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Loaded Q&A Pair - Question: 'How long does the admission process take?', Answer: 'The admission process usually takes around 2-3 weeks, including document submission, interview, and final approval.'
+Loaded Q&A Pair - Question: 'What grades are offered at Stratford International College?', Answer: 'We offer education from Primary to Secondary levels, including Grades 1 to 12.'
+Loaded Q&A Pair - Question: 'Is there a deadline for admission applications?', Answer: 'Yes, please check our Admissions page for the current year's application deadlines.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.101:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [12/Sep/2024 20:46:09] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:46:09] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:46:16] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:46:16] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:46:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:46:23] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:46:27] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:52:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:52:40] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:52:42] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 18 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section.'
+Loaded Q&A Pair - Question: 'Currciculum details?', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using the Contact Us page.'
+Loaded Q&A Pair - Question: 'What documents are required for admission?', Answer: 'The required documents include a birth certificate, passport size photo, previous school leaving certificate, and parent's NIC copy.'
+Loaded Q&A Pair - Question: 'What are the fees for admission?', Answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Loaded Q&A Pair - Question: 'How long does the admission process take?', Answer: 'The admission process usually takes around 2-3 weeks, including document submission, interview, and final approval.'
+Loaded Q&A Pair - Question: 'What grades are offered at Stratford International College?', Answer: 'We offer education from Primary to Secondary levels, including Grades 1 to 12.'
+Loaded Q&A Pair - Question: 'Is there a deadline for admission applications?', Answer: 'Yes, please check our Admissions page for the current year's application deadlines.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5001 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [12/Sep/2024 20:53:14] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:53:14] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 18 predefined Q&A pairs.
+Loaded Q&A Pair - Question: 'What are the programs?', Answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Loaded Q&A Pair - Question: 'What is the contact number?', Answer: 'You can reach us at +1234567890.'
+Loaded Q&A Pair - Question: 'What is the admission process?', Answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'hi', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'hello', Answer: 'Hello! How can I assist you today?'
+Loaded Q&A Pair - Question: 'How to apply?', Answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Loaded Q&A Pair - Question: 'How to apply for course?', Answer: 'You can check apply in course section.'
+Loaded Q&A Pair - Question: 'Currciculum details?', Answer: 'Our curriculum is meticulously designed to meet global educational standards while incorporating elements of the Sri Lankan national curriculum.'
+Loaded Q&A Pair - Question: 'Where is it located?', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'location', Answer: 'Kalpitiya, Sri Lanka.'
+Loaded Q&A Pair - Question: 'Extracurricular and Co-curricular Activities', Answer: 'Education at Stratford International College extends beyond textbooks to include a rich array of extracurricular and co-curricular activities.'
+Loaded Q&A Pair - Question: 'bye', Answer: 'Pleasure to help you.'
+Loaded Q&A Pair - Question: 'Trouble when applying?', Answer: 'Contact us by submitting an inquiry using the Contact Us page.'
+Loaded Q&A Pair - Question: 'What documents are required for admission?', Answer: 'The required documents include a birth certificate, passport size photo, previous school leaving certificate, and parent's NIC copy.'
+Loaded Q&A Pair - Question: 'What are the fees for admission?', Answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Loaded Q&A Pair - Question: 'How long does the admission process take?', Answer: 'The admission process usually takes around 2-3 weeks, including document submission, interview, and final approval.'
+Loaded Q&A Pair - Question: 'What grades are offered at Stratford International College?', Answer: 'We offer education from Primary to Secondary levels, including Grades 1 to 12.'
+Loaded Q&A Pair - Question: 'Is there a deadline for admission applications?', Answer: 'Yes, please check our Admissions page for the current year's application deadlines.'
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.101:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [12/Sep/2024 20:55:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:24] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:36] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:41] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:41] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:48] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:48] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:57] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:55:57] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:56:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:56:06] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:56:15] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:56:15] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:56:25] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:56:25] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:57:07] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:57:07] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:57:16] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:57:16] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 20:57:27] "OPTIONS /chatbot HTTP/1.1" 200 -
+Received question: 'What are the programs?'
+Searching for answer for question: 'what are the programs?'
+Matching 'what are the programs?' with 'what are the programs?' has ratio: 1.0
+Fuzzy match found. Returning answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Returning predefined/fuzzy answer: 'We offer Primary Education, Secondary Education, and Extracurricular Activities.'
+Received question: 'curriculum'
+Searching for answer for question: 'curriculum'
+Keyword 'curriculum' found in question. Answering with 'Curriculum details?'
+Matching 'curriculum' with 'what are the programs?' has ratio: 0.1875
+Matching 'curriculum' with 'what is the contact number?' has ratio: 0.21621621621621623
+Matching 'curriculum' with 'what is the admission process?' has ratio: 0.05
+Matching 'curriculum' with 'hi' has ratio: 0.16666666666666666
+Matching 'curriculum' with 'hello' has ratio: 0.13333333333333333
+Matching 'curriculum' with 'how to apply?' has ratio: 0.08695652173913043
+Matching 'curriculum' with 'how to apply for course?' has ratio: 0.17647058823529413
+Matching 'curriculum' with 'currciculum details?' has ratio: 0.6666666666666666
+Matching 'curriculum' with 'where is it located?' has ratio: 0.06666666666666667
+Matching 'curriculum' with 'location' has ratio: 0.2222222222222222
+Matching 'curriculum' with 'extracurricular and co-curricular activities' has ratio: 0.3333333333333333
+Matching 'curriculum' with 'bye' has ratio: 0.0
+Matching 'curriculum' with 'trouble when applying?' has ratio: 0.125
+Matching 'curriculum' with 'what documents are required for admission?' has ratio: 0.23076923076923078
+Matching 'curriculum' with 'what are the fees for admission?' has ratio: 0.14285714285714285
+Matching 'curriculum' with 'how long does the admission process take?' has ratio: 0.0392156862745098
+Matching 'curriculum' with 'what grades are offered at stratford international college?' has ratio: 0.057971014492753624
+Matching 'curriculum' with 'is there a deadline for admission applications?' has ratio: 0.14035087719298245
+No predefined or fuzzy match found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'apply'
+Searching for answer for question: 'apply'
+Keyword 'apply' found in question. Answering with 'How to apply?'
+Returning predefined/fuzzy answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Received question: 'fees'
+Searching for answer for question: 'fees'
+Keyword 'fees' found in question. Answering with 'What are the fees for admission?'
+Returning predefined/fuzzy answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Received question: 'What the fees?'
+Searching for answer for question: 'what the fees?'
+Keyword 'fees' found in question. Answering with 'What are the fees for admission?'
+Returning predefined/fuzzy answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Received question: 'how much '
+Searching for answer for question: 'how much'
+Matching 'how much' with 'what are the programs?' has ratio: 0.2
+Matching 'how much' with 'what is the contact number?' has ratio: 0.22857142857142856
+Matching 'how much' with 'what is the admission process?' has ratio: 0.21052631578947367
+Matching 'how much' with 'hi' has ratio: 0.2
+Matching 'how much' with 'hello' has ratio: 0.3076923076923077
+Matching 'how much' with 'how to apply?' has ratio: 0.38095238095238093
+Matching 'how much' with 'how to apply for course?' has ratio: 0.3125
+Matching 'how much' with 'currciculum details?' has ratio: 0.07142857142857142
+Matching 'how much' with 'where is it located?' has ratio: 0.21428571428571427
+Matching 'how much' with 'location' has ratio: 0.25
+Matching 'how much' with 'extracurricular and co-curricular activities' has ratio: 0.11538461538461539
+Matching 'how much' with 'bye' has ratio: 0.0
+Matching 'how much' with 'trouble when applying?' has ratio: 0.13333333333333333
+Matching 'how much' with 'what documents are required for admission?' has ratio: 0.16
+Matching 'how much' with 'what are the fees for admission?' has ratio: 0.2
+Matching 'how much' with 'how long does the admission process take?' has ratio: 0.24489795918367346
+Matching 'how much' with 'what grades are offered at stratford international college?' has ratio: 0.11940298507462686
+Matching 'how much' with 'is there a deadline for admission applications?' has ratio: 0.18181818181818182
+No predefined or fuzzy match found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'how much is the fees'
+Searching for answer for question: 'how much is the fees'
+Keyword 'fees' found in question. Answering with 'What are the fees for admission?'
+Returning predefined/fuzzy answer: 'You can find details on the admission fees in the Fees section of our website or by contacting the admissions office.'
+Received question: 'contact number'
+Searching for answer for question: 'contact number'
+Matching 'contact number' with 'what are the programs?' has ratio: 0.2222222222222222
+Matching 'contact number' with 'what is the contact number?' has ratio: 0.6829268292682927
+Matching 'contact number' with 'what is the admission process?' has ratio: 0.18181818181818182
+Matching 'contact number' with 'hi' has ratio: 0.0
+Matching 'contact number' with 'hello' has ratio: 0.10526315789473684
+Matching 'contact number' with 'how to apply?' has ratio: 0.2222222222222222
+Matching 'contact number' with 'how to apply for course?' has ratio: 0.21052631578947367
+Matching 'contact number' with 'currciculum details?' has ratio: 0.17647058823529413
+Matching 'contact number' with 'where is it located?' has ratio: 0.17647058823529413
+Matching 'contact number' with 'location' has ratio: 0.2727272727272727
+Matching 'contact number' with 'extracurricular and co-curricular activities' has ratio: 0.20689655172413793
+Matching 'contact number' with 'bye' has ratio: 0.23529411764705882
+Matching 'contact number' with 'trouble when applying?' has ratio: 0.2222222222222222
+Matching 'contact number' with 'what documents are required for admission?' has ratio: 0.10714285714285714
+Matching 'contact number' with 'what are the fees for admission?' has ratio: 0.08695652173913043
+Matching 'contact number' with 'how long does the admission process take?' has ratio: 0.18181818181818182
+Matching 'contact number' with 'what grades are offered at stratford international college?' has ratio: 0.0821917808219178
+Matching 'contact number' with 'is there a deadline for admission applications?' has ratio: 0.13114754098360656
+No predefined or fuzzy match found.
+No predefined answer found. Returning default message: 'I'm sorry, I cannot process your request right now.'
+Received question: 'admission'
+Searching for answer for question: 'admission'
+Keyword 'admission' found in question. Answering with 'What is the admission process?'
+Returning predefined/fuzzy answer: 'The admission process includes filling out an application form, submitting necessary documents, and attending an interview.'
+Received question: 'how to apply'
+Searching for answer for question: 'how to apply'
+Keyword 'apply' found in question. Answering with 'How to apply?'
+Returning predefined/fuzzy answer: 'You can apply by filling out an online application form, submitting necessary documents, and attending an interview.'
+Received question: 'how can I contact'
+Searching for answer for question: 'how can i contact'
+Matching 'how can i contact' with 'what are the programs?' has ratio: 0.15384615384615385
+Matching 'how can i contact' with 'what is the contact number?' has ratio: 0.5454545454545454
+Matching 'how can i contact' with 'what is the admission process?' has ratio: 0.2127659574468085
+Matching 'how can i contact' with 'hi' has ratio: 0.21052631578947367
+Matching 'how can i contact' with 'hello' has ratio: 0.18181818181818182
+Matching 'how can i contact' with 'how to apply?' has ratio: 0.3333333333333333
+127.0.0.1 - - [12/Sep/2024 20:57:27] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 39 predefined Q&A pairs.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.101:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [12/Sep/2024 22:44:35] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:44:35] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:44:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:44:45] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:44:49] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:44:57] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:44:57] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:13] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:28] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:28] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:47] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:47] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:45:53] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:06] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:06] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:23] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:40] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:40] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:51] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:46:51] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:47:02] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:47:02] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:47:13] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:47:13] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:47:59] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:47:59] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:48:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:48:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:48:33] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:48:34] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:48:42] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:48:42] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:52:45] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:52:45] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:52:55] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:52:55] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:05] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:05] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:17] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:17] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:27] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:27] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:33] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:33] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:58:58] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:59:10] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:59:10] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:59:24] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:59:24] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:59:31] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2024 22:59:31] "POST /chatbot HTTP/1.1" 200 -
+Found predefined_qna.json at: predefined_qna.json
+Loaded 39 predefined Q&A pairs.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.100:5001
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [15/Sep/2024 16:56:04] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:56:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:56:43] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:56:43] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:04] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:15] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:15] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:34] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:34] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:53] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:57:53] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:04] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:04] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:29] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:29] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:47] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:47] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:51] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:58] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:58:58] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:28] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:28] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:35] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:35] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:47] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:47] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:56] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 16:59:56] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:00:23] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:00:23] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:00:46] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:00:46] "POST /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:01:36] "OPTIONS /chatbot HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2024 17:01:36] "POST /chatbot HTTP/1.1" 200 -
